@@ -29,10 +29,15 @@ Dòng này sẽ tiến hành duyệt lại luôn block trước đó. Cuối cù
 ## Bài 3
 Bây giờ chúng ta sẽ thêm cơ chế Proof of Work vào. Cơ chế PoW sẽ thêm số nonce vào. Số nonce có thể hiểu đơn giản là **số lần thử** để thỏa mãn điều kiện mã hash.
 Ví dụ ở đây chúng ta có vòng lặp while, lặp lại khi nào mã hash có 2 chữ số 0 đầu tiên thì mới đáp ứng được yêu cầu.
+
 Quy luật Hash (data + nonce) = 00
+
 => hash (data + số 0) = a0x9...(hỏng)
+
 => hash (data + số 1) = b1x5...(hỏng)
+
 => hash (data + số 2) = 00x8 (thỏa mãn)
+
 Như vậy số nonce = 3
 
 OK bây giờ bạn thử thay đổi điều kiện **while hash(block).startswith('00')** thành 3 hoặc 4 hoặc 5 số 0 xem số nonce và thời gian có tăng lên không nhé? (Lưu ý càng nhiều số 0 chạy càng lâu, có thể gây nổ máy).
