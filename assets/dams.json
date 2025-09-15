@@ -2,7 +2,7 @@
   "name": "DAMS",
   "symbol": "DAMS",
   "description": "Token DAMS của tôi, đại diện cho tiền kỹ thuật số.",
-  "image": "https://raw.githubusercontent.com/hoanglong1812003/blockchaindemo/main/assets/dams.png",
+  "image": "https://raw.githubusercontent.com/hoanglong1812003/blockchaindemo/blob/main/assets/dams.png",
   "external_url": "https://github.com/hoanglong1812003/blockchaindemo",
   "attributes": [
     {
@@ -13,10 +13,11 @@
   "properties": {
     "files": [
       {
-        "uri": "https://raw.githubusercontent.com/hoanglong1812003/blockchaindemo/main/assets/dams.png",
+        "uri": "https://raw.githubusercontent.com/hoanglong1812003/blockchaindemo/blob/main/assets/dams.png",
         "type": "image/png"
       }
     ],
     "category": "image"
   }
+
 }
